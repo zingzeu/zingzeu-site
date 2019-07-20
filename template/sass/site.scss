@@ -42,6 +42,14 @@ $main-body-max-width: 75rem;
 .main {
     max-width: $main-body-max-width;
     padding: 0 0.5rem;
+    ul li::before {
+        content: "\25A0";  // Square
+        color: $secondary-color; 
+        font-weight: bold; 
+        display: inline-block; 
+        width: 1em; 
+        margin-left: -1em; 
+      }
 }
 
 .cta{
@@ -66,4 +74,10 @@ footer {
     color: $medium-gray;
     padding: 0.7rem 0.5rem;
     font-size: 80%;
+}
+
+blockquote {
+    p {
+        margin-bottom: 0;
+    }
 }
