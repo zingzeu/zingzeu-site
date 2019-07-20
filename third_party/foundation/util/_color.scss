@@ -121,6 +121,16 @@ $contrast-warnings: true !default;
   } @else {
     $secondary-color: #767676 !global;
   }
+  @if map-has-key($foundation-palette, secondary-light) {
+    $secondary-light-color: map-get($foundation-palette, secondary-light) !global;
+  } @else {
+    $secondary-light-color: #767676 !global;
+  }
+  @if map-has-key($foundation-palette, secondary-dark) {
+    $secondary-dark-color: map-get($foundation-palette, secondary-dark) !global;
+  } @else {
+    $secondary-dark-color: #767676 !global;
+  }
   @if map-has-key($foundation-palette, success) {
     $success-color: map-get($foundation-palette, success) !global;
   } @else {
