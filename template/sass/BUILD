@@ -2,6 +2,7 @@ package(default_visibility = ["//visibility:public"])
 
 load("@io_bazel_rules_sass//:defs.bzl", "sass_binary","sass_library")
 
+# TODO: Autoprefixer
 sass_binary(
     name ="site",
     src = "site.scss",

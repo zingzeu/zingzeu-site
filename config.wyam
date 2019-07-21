@@ -1,0 +1,36 @@
+#n Wyam.Markdown
+#n Wyam.Yaml
+#n Wyam.Razor
+
+// TODO: Update host name
+Settings[Keys.Host] = "ztl8702.github.io/zingzeu-site";
+//Settings[DocsKeys.Title] = "My Docs";
+Settings["SiteName"] = "真鸟囝输入法";
+
+// Add any pipeline customizations here
+System.Globalization.CultureInfo.DefaultThreadCurrentCulture
+    = System.Globalization.CultureInfo.CreateSpecificCulture("zh-CN");
+
+Pipelines.Add("Docs",
+    ReadFiles("help/*.md"),
+    FrontMatter(Yaml()),
+    Markdown(),
+    Meta("Post", @doc.Content), // Move the markdown content to metadata
+    Merge(
+        ReadFiles("help/template.cshtml") // Help template
+    ),
+    Razor(),
+    Meta("PostFile", string.Format(@"help\{0}.html", ((string)@doc["MachineName"]).ToLower().Replace(' ', '-'))),  // Use the post title as the filename and save it in metadata so we can use it in links later
+    WriteFiles((string)@doc["PostFile"])  // Write the post file 
+);
+
+Pipelines.Add("Home",
+    ReadFiles("{!_,}*.cshtml"),
+    Razor(),
+    WriteFiles(".html")
+);
+
+Pipelines.Add("Assets",
+    ReadFiles("assets/**/*"),
+    WriteFiles()
+);

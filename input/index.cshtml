@@ -1,0 +1,24 @@
+<div class="callout large">
+            <div class="row column text-center">
+              <div><img src="@Context.GetLink("/assets/images/logo.png")" height="146" width="146"/></div>
+              <h3><img src="@Context.GetLink("/assets/images/textual_logo.png")" width="100"/></h3>
+              <h4 class="subheader">福州话输入法</h4>
+            </div>
+          </div>
+          <div class="text-center downloads">
+            <!-- Anchors (links) -->
+            <a href="#" class="cta button">下载内测版</a>
+            <a href="@Context.GetLink("help/quickstart")" class="cta button secondary-light">快速入门</a>
+            <h6 class="subheader">版本号 1.0.0-beta1 支持 Windows 7, 8, 10 操作系统</h6>
+          </div>
+          <div class="text-center" style="height:4rem;">
+            
+          </div>
+<!--
+@foreach(var doc in Documents["Docs"].OrderBy(x => x["Title"]))
+{
+	<ul>
+		<li><a href="@doc["PostFile"]">@doc["Title"]</a></li>
+	</ul>
+}
+-->

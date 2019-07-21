@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+@{
+    string title = Model.WithoutSettings.String("Title");
+    if (String.IsNullOrEmpty(title)) {
+        title = Model.String("SiteName");
+    } else {
+        title = title + " | " + Model.String("SiteName");
+    }
+}
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@title</title>
+  <link rel="stylesheet" href="@Context.GetLink("/assets/css/site.css")" />
+</head>
+
+<body>
+   @Html.Partial("_NavBar")  
+  <div class="grid-container full">
+    <div class="grid-x align-center">
+      <div class="cell large-9 medium-12">
+        <div class="main">
+          @RenderBody()
+        </div>
+        <footer>
+          @Html.Partial("_Footer")  
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

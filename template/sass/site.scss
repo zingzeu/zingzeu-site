@@ -4,7 +4,7 @@
 @include foundation-everything();
 $main-body-max-width: 75rem;
 .top-bar {
-    max-width: $main-body-max-width;
+  max-width: $main-body-max-width;
   .menu {
     li {
       letter-spacing: 0.15rem;
@@ -16,10 +16,15 @@ $main-body-max-width: 75rem;
       color: $primary-color;
       font-weight: normal;
       border-bottom: 3px $primary-color solid;
+      padding: 0;
+      :hover {
+          border-bottom: none;
+      }
     }
     .site-logo {
-      background: url("https://placehold.it/28x28");
+      background-image: url("https://placehold.it/28x28");
       background-position: center;
+      background-size: 28px 28px;
       background-repeat: no-repeat;
       background-clip: border-box;
       min-width: 28px;
@@ -36,48 +41,50 @@ $main-body-max-width: 75rem;
 }
 
 .callout {
-    letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
 }
 
 .main {
-    max-width: $main-body-max-width;
-    padding: 0 0.5rem;
-    ul li::before {
-        content: "\25A0";  // Square
-        color: $secondary-color; 
-        font-weight: bold; 
-        display: inline-block; 
-        width: 1em; 
-        margin-left: -1em; 
-      }
+  max-width: $main-body-max-width;
+  padding: 0 0.5rem;
+  ul li::before {
+    content: "\25A0"; // Square
+    color: $secondary-color;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
 }
 
-.cta{
-    padding: 1.2rem 2rem;
-    margin: 0 1rem;
-    letter-spacing: 0.11rem;
-    border-radius: 4px;
-    &.secondary{
-        color:red;
-    }
+.cta {
+  padding: 1.2rem 2rem;
+  margin: 0 1rem;
+  letter-spacing: 0.11rem;
+  border-radius: 4px;
+  &.secondary {
+    color: red;
+  }
 }
-.downloads{
-    h6 {
-        margin: 1rem 0;
-        letter-spacing: 0.08rem;
-    }
+.downloads {
+  h6 {
+    margin: 1rem 0;
+    letter-spacing: 0.08rem;
+  }
 }
-
 
 footer {
-    border-top: 1px $medium-gray solid;
-    color: $medium-gray;
-    padding: 0.7rem 0.5rem;
-    font-size: 80%;
+  border-top: 1px $medium-gray solid;
+  color: $medium-gray;
+  padding: 0.7rem 0.5rem;
+  font-size: 80%;
+  a {
+      color: $dark-gray;
+  }
 }
 
 blockquote {
-    p {
-        margin-bottom: 0;
-    }
+  p {
+    margin-bottom: 0;
+  }
 }
