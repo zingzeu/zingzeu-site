@@ -19,7 +19,7 @@
             <li class="site-logo" style="@navLogoStyle"></li>
             @foreach (Tuple<string, string> page in pages)
             {
-                bool isActive = page.Item2 == "/" ? Context.GetLink(Document) == page.Item2 :  Context.GetLink(Document).StartsWith(page.Item2);
+                bool isActive = page.Item2 == Context.GetLink("/") ? Context.GetLink(Document) == page.Item2 :  Context.GetLink(Document).StartsWith(page.Item2);
                 string activeClass = isActive ? "menu-text" : "inactive";
                 <li class="@activeClass"><a href="@(page.Item2)">@Html.Raw(page.Item1)</a></li>
             }
