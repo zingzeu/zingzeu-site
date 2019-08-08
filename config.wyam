@@ -15,7 +15,7 @@ System.Globalization.CultureInfo.DefaultThreadCurrentCulture
 Pipelines.Add("Docs",
     ReadFiles("help/*.md"),
     FrontMatter(Yaml()),
-    Markdown(),
+    Markdown().UseConfiguration("pipetables"),
     Meta("Post", @doc.Content), // Move the markdown content to metadata
     Merge(
         ReadFiles("help/template.cshtml") // Help template
