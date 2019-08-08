@@ -35,3 +35,10 @@ Pipelines.Add("Assets",
     ReadFiles("assets/**/*"),
     WriteFiles()
 );
+
+/*
+Pipelines.Add("GithubIO",
+    ReadFiles("CNAME"),
+    WriteFiles()
+);
+*/
