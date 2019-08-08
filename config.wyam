@@ -2,9 +2,7 @@
 #n Wyam.Yaml
 #n Wyam.Razor
 
-// TODO: Update host name
-Settings[Keys.Host] = "ztl8702.github.io";
-Settings[Keys.LinkRoot] = "/zingzeu-site";
+Settings[Keys.Host] = "www.zingzeu.org";
 //Settings[DocsKeys.Title] = "My Docs";
 Settings["SiteName"] = "真鸟囝输入法";
 
@@ -36,9 +34,8 @@ Pipelines.Add("Assets",
     WriteFiles()
 );
 
-/*
+
 Pipelines.Add("GithubIO",
     ReadFiles("CNAME"),
     WriteFiles()
 );
-*/

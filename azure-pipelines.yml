@@ -9,9 +9,9 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 steps:
-- script: dotnet tool install --tool-path . Wyam.Tool
+- script: dotnet tool install --tool-path /tmp/ Wyam.Tool
   displayName: Install Wyam
-- script: ./wyam build
+- script: /tmp/wyam build
   displayName: Wyam build
 - task: DownloadSecureFile@1
   inputs:
