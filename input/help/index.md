@@ -18,3 +18,4 @@ Published: 1/1/2019
 
 ##### 社群
  * 加入内测用户QQ群: 770807471
+ * 加入 [Facebook 真鳥囝福州話保護羣](https://www.facebook.com/groups/2295846490664162)
