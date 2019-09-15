@@ -11,37 +11,37 @@ Published: 1/1/2019
 
 1. 双击运行你下载到安装包。
 
-   ![](/assets/images/install-01-run.png)
+   <img src="/assets/images/install-01-run.jpg" alt="运行安装包" style="max-width: 300px;"/>
 
 1. Windows Defender 可能会警告你。
 
-   ![](/assets/images/install-02-defender.png)
+   <img src="/assets/images/install-02-defender.jpg" alt="Windows Defender 警告" style="max-width: 400px;"/>
 
    此时可以点击“更多信息” -> "仍要运行"。
 
-   ![](/assets/images/install-03-confirm.png)
+   <img src="/assets/images/install-03-confirm.jpg" alt="仍要运行" style="max-width: 400px;"/>
 
    > 已知问题: Windows 10 自带的防毒软件会将真鸟囝输入法误认做病毒。你可能需要暂时禁用 Windows Defender 或其他杀毒软件。
 
-1. Windows 账户控制可能会提示你是否授权。此时选择“是”。（安装输入法需要系统管理员权限）
+1. Windows 用户账户控制 可能会提示你是否授权。此时选择“是”。（安装输入法需要系统管理员权限）
    
-   ![](/assets/images/install-04-uac.png)
+   <img src="/assets/images/install-04-uac.jpg" alt="Windows 用户账户控制" style="max-width: 400px;"/>
 
 1. 此时应该看到真鸟囝输入法安装器的界面。点击相应版本旁的“安装”按钮即可安装。
    
-   ![](/assets/images/install-05-installer.png)
+   <img src="/assets/images/install-05-installer.jpg" alt="真鸟囝输入法安装器" style="max-width: 400px;"/>
 
 1. 安装完成后，点击系统状态栏上的输入法切换按钮。
    
-   ![](/assets/images/install-06-switch.png)
+   <img src="/assets/images/install-06-switch.jpg" alt="输入法切换按钮" style="max-width: 150px;"/>
 
    选择“真鸟囝输入法”。
 
-   ![](/assets/images/install-07-select.png)
+   <img src="/assets/images/install-07-select.jpg" alt="在输入法菜单中选择真鸟囝输入法" style="max-width: 200px;"/>
 
 1. 恭喜你，你可以开始试用真鸟囝输入法了。
    
-   ![](/assets/images/install-08-type.png)
+   <img src="/assets/images/install-08-type.jpg" alt="在记事本中使用真鸟囝输入法" style="max-width: 400px;"/>
 
 下一步：阅读 [拼音入门](pinyin) 了解如何使用真鸟囝输入法打福州话。
 
