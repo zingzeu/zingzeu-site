@@ -45,6 +45,7 @@ $main-body-max-width: 75rem;
 }
 
 .main {
+  margin: 0 auto; // TODO: hack to align-center, remove
   max-width: $main-body-max-width;
   padding: 0 0.5rem;
   ul li::before {
