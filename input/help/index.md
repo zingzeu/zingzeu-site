@@ -8,6 +8,7 @@ Published: 1/1/2019
 ##### 帮助文档
 
  - [快速上手](quickstart) 安装。
+ - [手动安装指南](manual-installation) 
  - [拼音入门](pinyin) 学习我们所使用的福州话拼音方案。
 
 ##### 知乎专栏

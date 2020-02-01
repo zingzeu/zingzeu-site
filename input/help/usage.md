@@ -5,7 +5,7 @@ Published: 1/1/2019
 
 #### 安装
 
-> 真鸟囝输入法正处于内测阶段，暂时不推荐入门用户使用。
+> 真鸟囝输入法正处于内测阶段，不稳定，暂时不推荐入门用户使用。你可以先试用[网页体验版](http://yngping.mindong.asia)。
 
 要安装真鸟囝输入法，请先到 [下载](/download) 页面下载安装包。
 
@@ -44,6 +44,10 @@ Published: 1/1/2019
    <img src="/assets/images/install-08-type.jpg" alt="在记事本中使用真鸟囝输入法" style="max-width: 400px;"/>
 
 下一步：阅读 [拼音入门](pinyin) 了解如何使用真鸟囝输入法打福州话。
+
+#### 参见
+
+* [手动安装](manual-installation)
 
 #### 反馈问题
 
