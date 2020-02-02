@@ -19,7 +19,7 @@ MachineName: manual-installation
 
 #### 下载和导入真鸟囝词库
 
-1. 下载[最新词库](https://bintray.com/ztl8702/zingzeu/download_file?file_path=zingzeu20190830.zip)
+1. 下载[最新词库](https://wj.qq.com/s2/5329731/6d93/)
 
 1. 将下载的压缩包解压缩。
 
