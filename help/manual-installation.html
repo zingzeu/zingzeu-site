@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>&#x624B;&#x52A8;&#x5B89;&#x88C5;&#x6559;&#x7A0B; | &#x771F;&#x9E1F;&#x56DD;&#x8F93;&#x5165;&#x6CD5;</title>
+  <title>&#x624B;&#x52A8;&#x5B89;&#x88C5;&#x6559;&#x7A0B;&#xFF08;&#x9AD8;&#x7EA7;&#x7528;&#x6237;&#xFF09; | &#x771F;&#x9E1F;&#x56DD;&#x8F93;&#x5165;&#x6CD5;</title>
   <link rel="stylesheet" href="/assets/css/site.css" />
   <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
@@ -33,10 +33,53 @@
         <div class="main">
           <div style="height:2rem;"></div>
 <div>
-    <h2>&#x624B;&#x52A8;&#x5B89;&#x88C5;&#x6559;&#x7A0B;</h2>
+    <h2>&#x624B;&#x52A8;&#x5B89;&#x88C5;&#x6559;&#x7A0B;&#xFF08;&#x9AD8;&#x7EA7;&#x7528;&#x6237;&#xFF09;</h2>
     <blockquote>
-<p>教程撰写中，请稍后刷新。</p>
+<p>此为临时的手动安装方法。我们推荐初级用户等待自动安装器开发完成，或使用<a href="http://yngping.mindong.asia">网页体验版</a></p>
+<p>手动安装方法有局限性。不能自动更新。请加入内测 QQ 群 770807471 来获取最新版本信息。</p>
 </blockquote>
+<h4>概述</h4>
+<p>真鸟囝输入法基于 <a href="https://rime.im">RIME</a>。手动安装方法需要你先在电脑上自行安装 RIME 输入法，然后手动导入真鸟囝词库。</p>
+<h4>安装 RIME</h4>
+<p>请到 https://rime.im/download/ 按照 RIME 官方教程下载和安装小狼毫（Windows）或鼠鬚管（macOS）。</p>
+<p>如需帮助，请参考 RIME 官方<a href="https://rime.im/docs/">帮助文档</a>。</p>
+<h4>下载和导入真鸟囝词库</h4>
+<ol>
+<li><p>下载<a href="https://wj.qq.com/s2/5329731/6d93/">最新词库</a></p>
+</li>
+<li><p>将下载的压缩包解压缩。</p>
+</li>
+<li><p>打开 RIME 的“用户文件夹”。</p>
+<ul>
+<li>Windows 用户：开始菜单 -&gt; 小狼豪输入法 -&gt; 【小狼豪】用户文件夹。或打开 <code>%APPDATA%\Rime</code></li>
+<li>macOS 用户：打开终端 (Terminal)，运行 <code>open ~/Library/Rime/</code></li>
+</ul>
+</li>
+<li><p>将解压缩完的文件，拖拽/复制到 RIME 用户文件夹。</p>
+<img src="/assets/images/manual-install-copy.jpg" alt="将解压缩完的文件复制到 RIME 用户文件夹" style="max-width: 400px;"/>
+</li>
+<li><p>激活真鸟囝输入法</p>
+<ul>
+<li>Windows 用户：开始菜单 -&gt; 小狼豪输入法 -&gt; 【小狼豪】输入法设定 -&gt; 勾选 “福州话：汉字” -&gt; 点击&quot;中&quot;。</li>
+</ul>
+ <img src="/assets/images/manual-install-activate.jpg" alt="将解压缩完的文件复制到 RIME 用户文件夹" style="max-width: 400px;"/>
+<ul>
+<li>macOS 用户：用文本编辑器打开 <code>~Library/Rime/default.yaml</code>，在 <code>schema_list</code> 下新增一行：</li>
+</ul>
+<pre><code>  - schema: Hukziu
+</code></pre>
+</li>
+<li><p>重新部署RIME。</p>
+<ul>
+<li>Windows 用户：开始菜单 -&gt; 小狼豪输入法 -&gt; 【小狼豪】重新部署</li>
+<li>macOS 用户：切换到鼠鬚管输入法，点击屏幕右上角的鼠鬚管图标，然后点“部署(Deploy)”</li>
+</ul>
+</li>
+<li><p>将系统输入法切换到小狼豪/鼠鬚管，按下 <code>Ctrl-`</code> 切换到 “福州话：汉字”</p>
+</li>
+</ol>
+<h4>更新词库</h4>
+<p>需要更新时，重复以上步骤，覆盖旧文件。</p>
 
 </div>
         </div>
