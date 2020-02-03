@@ -38,7 +38,7 @@ MachineName: manual-installation
 
     <img src="/assets/images/manual-install-activate.jpg" alt="将解压缩完的文件复制到 RIME 用户文件夹" style="max-width: 400px;"/>
 
-   * macOS 用户：用文本编辑器打开 `~Library/Rime/default.yaml`，在 `schema_list` 下新增一行：
+   * macOS 用户：用文本编辑器打开 `~/Library/Rime/default.yaml`，在 `schema_list` 下新增一行：
     ```
       - schema: Hukziu
     ```
