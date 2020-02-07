@@ -5,6 +5,9 @@
 trigger:
 - master
 
+pr:
+- master
+
 pool:
   vmImage: 'Ubuntu-16.04'
 
@@ -21,7 +24,7 @@ steps:
     mkdir ~/.ssh && mv $DOWNLOADSECUREFILE_SECUREFILEPATH ~/.ssh/id_rsa
     chmod 700 ~/.ssh && chmod 600 ~/.ssh/id_rsa
     ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-    git remote set-url --push origin git@github.com:ztl8702/zingzeu-site.git
+    git remote set-url --push origin git@github.com:zingzeu/zingzeu-site.git
   displayName: 'Setup deploy key'
   condition: |
     and(not(eq(variables['Build.Reason'], 'PullRequest')),
