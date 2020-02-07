@@ -18,5 +18,5 @@ Published: 1/1/2019
  - [福州话教材《榕腔初学二十堂》](https://zhuanlan.zhihu.com/ni-leik-doung)
 
 ##### 社群
- * 加入内测用户QQ群: 770807471
+ * 加入内测用户QQ群：770807471
  * 加入 [Facebook 真鳥囝福州話保護羣](https://www.facebook.com/groups/2295846490664162)
