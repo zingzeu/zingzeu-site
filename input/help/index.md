@@ -9,7 +9,7 @@ Published: 1/1/2019
 
  - [快速上手](quickstart) 安装。
  - [手动安装指南](manual-installation) Windows 临时手动安装方法。macOS 用户暂时只有这个方法。
- - [榕拼规范白皮书](https://github.com/zingzeu/yngping-spec/blob/ztl8702/preview/hukziu.adoc) 学习我们所使用的福州话拼音方案。
+ - [榕拼规范白皮书](https://yngping.zingzeu.org) 学习我们所使用的福州话拼音方案。
 
 ##### 知乎专栏
 子善定期在知乎上科普。请关注：
