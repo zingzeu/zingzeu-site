@@ -43,7 +43,7 @@ Published: 1/1/2019
    
    <img src="/assets/images/install-08-type.jpg" alt="在记事本中使用真鸟囝输入法" style="max-width: 400px;"/>
 
-下一步：阅读 [榕拼规范白皮书](https://github.com/zingzeu/yngping-spec/blob/ztl8702/preview/hukziu.adoc) 了解如何使用真鸟囝输入法打福州话。
+下一步：阅读 [榕拼规范白皮书](https://yngping.zingzeu.org/) 了解如何使用真鸟囝输入法打福州话。
 
 #### 参见
 
