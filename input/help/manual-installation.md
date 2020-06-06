@@ -26,8 +26,8 @@ MachineName: manual-installation
 
    * Windows 用户：开始菜单 -> 小狼豪输入法 -> 【小狼豪】用户文件夹。或打开 `%APPDATA%\Rime`
    * macOS 用户：打开终端 (Terminal)，运行 `open ~/Library/Rime/`
-   * Android 用户：文件管理器 -> `rime`文件夹
-   * iOS 用户：电脑快传
+   * Android 用户：文件管理器 -> `rime` 文件夹
+   * iOS 用户：打开 “iRime” 应用 -> 电脑快传
 
 1. 将解压缩完的文件，拖拽/复制到 RIME 用户文件夹。
 
@@ -37,7 +37,7 @@ MachineName: manual-installation
 
 1. 激活真鸟囝输入法。
    
-   * Windows 用户：开始菜单 -> 小狼豪输入法 -> 【小狼豪】输入法设定 -> 勾选 “平话（福州市区）” -> 点击“ 中”
+   * Windows 用户：开始菜单 -> 小狼豪输入法 -> 【小狼豪】输入法设定 -> 勾选 “平话（福州市区）” -> 点击 “中”
 
     <img src="/assets/images/manual-install-activate.jpg" alt="将解压缩完的文件复制到 RIME 用户文件夹" style="max-width: 400px;"/>
 
@@ -47,11 +47,9 @@ MachineName: manual-installation
     ```
     
    * Android 用户：打开 “同文输入法” 应用 -> 选取软键盘 -> 选取 “同文输入法”
+   * iOS 用户：返回 “桌面” -> 设定 -> 一般 -> 键盘 -> 选取 “iRime”
    
-   * iOS 用户：返回桌面 -> 设定 -> 一般 -> 键盘 -> 选取 “iRime”
    
-   
-
 1. 重新部署RIME。
    
    * Windows 用户：开始菜单 -> 小狼豪输入法 -> 【小狼豪】重新部署
