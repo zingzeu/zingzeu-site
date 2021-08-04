@@ -8,6 +8,7 @@ MachineName: credits
 
 图标设计：
  * 什子
+ * 林泺璎
 
 参与录入志愿者：
  * Arcease
